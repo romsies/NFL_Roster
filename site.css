@@ -1,0 +1,15 @@
+.player-card {
+	border:1px solid black;
+	display:inline-block;
+	text-align: center;
+}
+.player-roster {
+	text-align: center;
+}
+.panel-heading{
+	text-align: center;
+	text-shadow: 3px 3px grey
+}
+.container{
+	background: silver
+}
