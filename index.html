@@ -14,52 +14,48 @@
   <div class="container">
     <div class="panel panel-info">
       <div class="panel-heading">
-        <h1>My NFL Roster</h1></div>
-      <div class="panel-body">
-      </div>
-
-
-
-      <div class="player-roster">
-        <div class="player-card">
-          <div class="">
-            <div class="player-image"> <img src="player.png" alt="Player 1"></div>
-            <div>
-              <span class="name">Player Name:</span>
-            </div>
-            <div>
-              <span class="position">Position:</span>
-            </div>
-            <div>
-              <span class="number">Number:</span>
-            </div>
-          </div>
-          <button class="btn btn-danger remove-player">REMOVE</button>
-        </div>
-      </div>
+        <h1>My NFL Roster</h1>
     </div>
-    <div class="player-form">
-      <form class="form-inline">
-        <div class="form-group">
-          <label for="Player Name">Player Name</label>
-          <input type="text" class="form-control" id="name" placeholder="Mac Truck">
+      <div class="panel-body">
+        <div class="player-roster">
+          <div class="player-card">
+            <div class="">
+              <div class="player-image"> <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRqFqHPQordw06mO22GgbP3QzEvjNMx1sdJzy2DZTCcyh_Nqal8"
+                alt="Player 1"></div>
+              <div>
+                <span class="name">Player Name:</span>
+              </div>
+              <div>
+                <span class="position">Position:</span>
+              </div>
+              <div>
+                <span class="number">Number:</span>
+              </div>
+            </div>
+            <button class="btn btn-danger remove-player">REMOVE</button>
+          </div>
         </div>
-        <div class="form-group">
-          <label for="player Position">Player Position</label>
-          <input type="text" class="form-control" id="position" placeholder="Put Me in Coach">
+
+        <div class="player-form">
+          <form class="form-inline">
+            <div class="form-group">
+              <label for="Player Name">Player Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Mac Truck">
+            </div>
+            <div class="form-group">
+              <label for="player Position">Player Position</label>
+              <input type="text" class="form-control" id="position" placeholder="Put Me in Coach">
+            </div>
+            <div class="form-group">
+              <label for="Player Number">Player Number</label>
+              <input type="text" class="form-control" id="num" placeholder="##">
+            </div>
+            <button class="btn btn-success" id="add-player-button">Add New Player</button>
+
+
+          </form>
         </div>
-        <div class="form-group">
-          <label for="Player Number">Player Number</label>
-          <input type="text" class="form-control" id="num" placeholder="##">
-        </div>
-        <button class="btn btn-success" id="add-player-button">Add New Player</button>
-        
-
-      </form>
-
-
-
-
+      </div>
       <script src="app.js"></script>
 
 </body>

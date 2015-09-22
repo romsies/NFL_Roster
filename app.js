@@ -7,7 +7,7 @@ function addPlayer(e) {
       
       var html = '<div class="player-card">' +
       '<div class="">' +
-      '<div class="player-image"> <img src="player.png" alt="Player 1"></div>' +
+      '<div class="player-image"> <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRqFqHPQordw06mO22GgbP3QzEvjNMx1sdJzy2DZTCcyh_Nqal8" alt="Player 1"></div>' +
       '<div>' +
       '<span>Player Name: </span>'+name +
       '</div>' +

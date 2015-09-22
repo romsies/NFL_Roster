@@ -8,8 +8,15 @@
 }
 .panel-heading{
 	text-align: center;
-	text-shadow: 3px 3px grey
+	text-shadow: 2px 2px grey
 }
 .container{
 	background: silver
+}
+body {
+    background-image: url("nfl map.png");
+    background-repeat: repeat-x;
+}
+.panel-body{
+	    background-color: royalblue
 }
