@@ -36,9 +36,7 @@ function removePlayer() {
 }
 
 var playerService = function () {
-
       var _players = [];
-
       return {
             loadPlayers: function (cb) {
                   var url = "http://bcw-getter.herokuapp.com/?url=";
@@ -62,3 +60,7 @@ var playerService = function () {
             }
       }
 }
+var ps = playerService()
+ps.loadPlayers(function(){
+         
+});

@@ -16,7 +16,7 @@
 }
 body {
     background-image: url("nfl map.png");
-    background-repeat: repeat-x;
+    background-size; cover;
 }
 .panel-body{
 	    background-color: royalblue
